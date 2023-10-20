@@ -9,11 +9,11 @@ package lat_konversi1.Lat_Konversi1.Menu_Class;
  * @author mariq
  */
 public class Menu {
-    private String nama;
-    private String jenis;
-    private double harga;
-    private int batas;
-    private int es;
+    private final String nama;
+    private final String jenis;
+    private final double harga;
+    private final int batas;
+    private final int es;
 
     public Menu(String nama, String jenis, int harga, int batas, int es) {
         this.nama = nama;
